@@ -1,7 +1,4 @@
 <?php
-    // error_reporting(0);
-
-    // Create folder for each user
     session_start();
     $dir = 'upload/' . session_id();
     if ( !file_exists($dir) )
