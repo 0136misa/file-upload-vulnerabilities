@@ -13,4 +13,4 @@ RUN find . -type d -exec chmod 750 {} \;
 # add write permission for upload file
 RUN chmod g+w /var/www/html/upload/
 RUN chmod +t -R /var/www/html/
-RUN echo "CBJS{FAKE_FLAG_FAKE_FLAG}" > /secret.txt
+RUN echo "FLAG{How_could_you_find_me}" > /secret.txt
